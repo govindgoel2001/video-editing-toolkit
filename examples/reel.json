@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "presenter": "../workspaces/my-reel/inputs/presenter.mp4",
+  "transcript": "../workspaces/my-reel/inputs/words.json",
+  "keyword": "COMPANY BRAIN",
+  "sfx": true,
+  "split": {"simple_video_top": 990},
+  "beats": [
+    {"word_start": 0, "layout": "face"},
+    {
+      "cue": "company brain",
+      "layout": "graphic",
+      "scene": "logo-pop",
+      "data": {"title": "Company Brain", "label": "FROM THE RECORDING"},
+      "emphasis": ["brain"]
+    },
+    {
+      "cue": "here is the proof",
+      "layout": "split",
+      "scene": "receipt",
+      "data": {
+        "title": "Source evidence",
+        "label": "CAPTURED SOURCE",
+        "image": "../workspaces/my-reel/inputs/receipt.png"
+      }
+    },
+    {"cue": "try it yourself", "layout": "face"}
+  ]
+}

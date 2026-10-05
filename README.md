@@ -35,6 +35,20 @@ The editor writes `final.mp4` at **1920×1080, 30 fps, H.264/AAC**, a readable `
 
 For a screen recording plus a GoPro/camera view, start from [edl.camera.json](examples/edl.camera.json). Run `python toolkit.py sync your-edl.json --edit-dir workspaces/my-video/edit`, verify the proposed offset, and enter it in the EDL before rendering. Camera files should already be copied to disk. [EDL reference](docs/edl.md) explains mic selection, cuts, crops, PiP, zooms, graphics and music.
 
+## Make a portrait reel
+
+The Company Brain scene library alternates full presenter footage, a rounded bottom presenter window, and full-frame graphics. Ten reusable scenes use the approved light/orange style, with captions and scene changes tied to spoken word timings. Narration stays continuous.
+
+```powershell
+python toolkit.py reel --demo --dir workspaces/reel-demo --draft
+```
+
+Open `workspaces/reel-demo/final.mp4`: a 36-second **1080×1920, 30 fps** fixture covering every scene. Its presenter and audio are synthetic. The command also creates an editable `freelancer-pack.zip` with the composition, assets, word timings, captions and separate audio stems.
+
+For your own filmed or already generated presenter, copy [reel.json](examples/reel.json), set local media paths, and align its beats to your recording. Run `python toolkit.py reel your-job.json --dir workspaces/my-reel`. Supply a word-timed transcript or let local Whisper prepare one. [Portrait reel reference](docs/reels.md) covers scene data, cropping, captions, previews and exports.
+
+This implements local Library rendering and editable asset packs. Fresh scene generation, link-to-script automation, Telegram/VPS jobs and HeyGen avatar training are not implemented by this command.
+
 ## What's included
 
 | Tool | Location | Use |
@@ -43,6 +57,7 @@ For a screen recording plus a GoPro/camera view, start from [edl.camera.json](ex
 | Original video-use | `vendor/video-use/` | Agent editing skill, hosted transcription, packed transcripts, grading, rendering and timeline inspection |
 | Local transcription | `engine/transcribe_local.py` | CPU/int8 faster-whisper; optional CUDA; word timestamps in the editor's transcript format |
 | HyperFrames + GSAP | `graphics/`, root npm packages | Deterministic HTML animations rendered to transparent ProRes MOV cards |
+| Company Brain portrait reels | `reels/` | Ten word-timed scenes, continuous presenter audio, three layouts, export QC and editable freelancer packs |
 | HyperFrames skills | `vendor/hyperframes-skills/` | Authoring, CLI, GSAP, registry and website-to-video instructions with references |
 | God graphics | `examples/god-graphics/` | Twelve original HTML compositions from `videoeditinggod/v3` |
 | Remotion | `examples/remotion/`, `tools/remotion.py` | Working React demo and the original loading-screen speed-up, with configurable input |

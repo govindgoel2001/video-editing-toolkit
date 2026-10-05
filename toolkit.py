@@ -103,6 +103,10 @@ def render(args):
 
 def main():
     argv = sys.argv[1:]
+    if argv[:1] == ['reel']:
+        from reels.cli import main as reel_main
+        reel_main(argv[1:])
+        return
     forwarded = []
     if argv[:1] == ['engine'] and '--' in argv:
         split = argv.index('--')
@@ -110,6 +114,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     sp = ap.add_subparsers(dest='command', required=True)
     sp.add_parser('doctor', help='Check core and optional dependencies')
+    sp.add_parser('reel', help='Word-timed 1080x1920 scene-library reels (reel --help)')
     r = sp.add_parser('render', help='EDL -> captions, PiP, graphics, mix and QC')
     r.add_argument('edl', type=Path)
     r.add_argument('--edit-dir', type=Path)

@@ -9,10 +9,11 @@ The root MIT license applies to this toolkit's original code and Govind's adapte
 | watch | [mathiaschu/watch](https://github.com/mathiaschu/watch), `14c780e47bbafaf3b6ae22ec108615470cc89476` | MIT; original Bradley Bonanno and Mathias Schusterman notices retained in `vendor/watch/LICENSE`. Tracked source files are copied unchanged. |
 | FFmpeg | Installed separately | [FFmpeg legal and licensing](https://ffmpeg.org/legal.html): terms depend on the build, enabled libraries and distribution. Binary not bundled. |
 | GSAP | npm 3.14.2 | [GSAP standard license](https://gsap.com/standard-license/). Installed by npm; no assertion that it is MIT. |
+| Inter, Fraunces italic, JetBrains Mono | Google Fonts Latin variable WOFF2 subsets | SIL Open Font License 1.1. The three original OFL notices and downloaded font hashes/source URLs are in `reels/fonts/`. Keep these notices with exported projects. |
 | Remotion | npm 4.0.447 | [Remotion license](https://www.remotion.dev/license). Review the applicable usage/company terms. Installed in its example, not vendored. |
 | faster-whisper / CTranslate2 | pip dependencies | Retain each installed package's license; model weights have their own terms. |
 | NumPy, SciPy, Pillow, Playwright, Manim, yt-dlp, librosa, Matplotlib, Requests, React | pip/npm dependencies | Installed separately with their upstream license files and notices. |
 
-System fonts are referenced locally and are not distributed. Generated synthetic footage and sound effects are produced on the user's machine. Screenshots, input recordings, imported images, music and model outputs remain subject to their owners' terms.
+The landscape tools reference system fonts locally. The portrait renderer distributes the licensed fonts listed above. Generated synthetic footage and sound effects are produced on the user's machine. Screenshots, input recordings, imported images, music and model outputs remain subject to their owners' terms.
 
 [docs/provenance.json](docs/provenance.json) records source paths relative to the original home directory and hashes of selected source files before adaptation. Vendored license files and notices must stay with redistributed copies.

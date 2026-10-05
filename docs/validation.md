@@ -9,7 +9,7 @@ python -m unittest discover -s tests -v
 python toolkit.py demo --graphics
 ```
 
-All **15 regression checks passed**. They cover relative EDL paths, invalid source ranges/sync offsets, duplicate transcript stems, PiP restrictions, caption timestamp carry, borrowed-microphone cuts, word protection, silent-input sync confidence, PCM transcription input and real FFmpeg retiming. A fully dropped range and a failed audio decode cannot silently report success.
+All **28 regression checks passed**. They cover relative EDL paths, invalid source ranges/sync offsets, duplicate transcript stems, PiP restrictions, caption timestamp carry, borrowed-microphone cuts, word protection, silent-input sync confidence, PCM transcription input and real FFmpeg retiming. Reel checks also cover ambiguous speech cues, invalid word timings, caption boundaries, local media resolution, crop/music validation, real 44.1-to-48 kHz resampling and exclusion of stale media/login files from freelancer packs. A fully dropped range and a failed audio decode cannot silently report success.
 
 The full synthetic demo rendered and decoded successfully at 1920×1080, 30 fps, H.264/AAC: **189 frames / 6.30 seconds**. Its three intermediate clips had **zero samples of frame/audio mismatch**. QC measured **−13.9 LUFS**, **−5.4 dBTP**, no introduced speech dropouts, no clipped words and no mid-sentence boundaries. These are fixture results, not an assurance about arbitrary source footage.
 
@@ -43,6 +43,18 @@ npm run demo
 ```
 
 It produced 90 frames / three seconds. These renders exercise the pinned Remotion packages and their downloaded browser, not just source compilation.
+
+## Portrait scene library
+
+```bash
+python toolkit.py reel --demo --dir workspaces/reel-demo --draft
+```
+
+HyperFrames 0.8.40 lint, runtime, motion and layout checks passed for the portrait composition. All ten scene types rendered in the generated 36-second fixture. The delivered MP4 decoded at **1080×1920, 30 fps, 1,080 frames**. Its PCM mix contained exactly **1,728,000 samples** at 48 kHz. Export QC measured **−14.0 LUFS**, **−3.8 dBTP**, zero audio lag against the continuous source, and no introduced dropouts. Backward seeks and both split/graphic layouts were checked during scene development.
+
+Export frames were inspected for source-page playback, caption placement and layout transitions. The captured page advances within its scene. A dense transition inspection identified hidden counter-strip rows outside their deliberate one-digit clipping window; those rows now have an explicit occlusion annotation. A focused follow-up at six timestamps found no errors or warnings. Pack contents include licensed fonts, the current source assets, timed beats, captions and continuous narration/mix/SFX stems.
+
+A separate private presenter clip exercised the alpha cutout and all three layouts at 388 frames, with −14.0 LUFS and zero measured audio lag. That media and its transcript are excluded from the repository. It is a style preview, not a fact-checked, publication-ready reel. Fresh generation, Telegram/VPS scheduling and HeyGen training/API generation remain unverified and unimplemented here.
 
 ## Local speech transcription
 

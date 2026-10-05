@@ -1,0 +1,314 @@
+/* Company Brain proof scenes. Static styles are the fully visible hero frame. */
+.proof-scene {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 90px;
+  gap: 32px;
+  box-sizing: border-box;
+  color: #111114;
+  font-family: "Inter", sans-serif;
+  background-color: #fafafa;
+}
+
+.proof-scene[data-layout="graphic"] {
+  padding-bottom: 390px;
+}
+
+.proof-scene *,
+.proof-scene *::before,
+.proof-scene *::after {
+  box-sizing: border-box;
+}
+
+.proof-heading {
+  margin: 0;
+  max-width: 100%;
+  font-size: 76px;
+  line-height: 1.08;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+
+.proof-kicker {
+  max-width: 100%;
+  color: #b84000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.proof-rule {
+  width: 240px;
+  height: 8px;
+  flex: 0 0 8px;
+  border-radius: 4px;
+  background-color: #ff5c00;
+  transform-origin: left center;
+}
+
+.proof-logo-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 192px;
+  flex: 0 0 192px;
+  padding: 28px;
+  border: 2px solid #e4e4e7;
+  border-radius: 44px;
+  background-color: #ffffff;
+  box-shadow: 0 18px 50px rgba(17, 17, 20, 0.06);
+}
+
+.proof-logo-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.proof-logo-initial {
+  color: #b84000;
+  font-size: 112px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.proof-logo-title {
+  font-size: 92px;
+}
+
+.proof-receipt {
+  gap: 28px;
+}
+
+.proof-receipt-title {
+  font-size: 72px;
+  flex: 0 0 auto;
+}
+
+.proof-receipt-frame {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 620px;
+  max-height: 620px;
+  min-height: 300px;
+  flex: 0 1 620px;
+  border: 2px solid #e4e4e7;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 18px 54px rgba(17, 17, 20, 0.06);
+}
+
+.proof-receipt-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.proof-receipt-highlight {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  height: 44px;
+  margin-top: -22px;
+  border: 3px solid #ff5c00;
+  border-radius: 10px;
+  background-color: rgba(255, 92, 0, 0.14);
+  transform-origin: left center;
+}
+
+.proof-receipt-missing {
+  padding: 48px;
+  max-width: 100%;
+  color: #52525b;
+  font-family: "Fraunces", serif;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.proof-counter {
+  gap: 38px;
+}
+
+.proof-counter-label {
+  font-size: 72px;
+}
+
+.proof-counter-panel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 270px;
+  padding: 24px 0;
+}
+
+.proof-counter-number {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  max-width: 100%;
+  color: #b84000;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 208px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.065em;
+  font-variant-numeric: tabular-nums;
+  font-variant-ligatures: none;
+}
+
+.proof-counter-cell {
+  display: block;
+  width: 1ch;
+  height: 1em;
+  flex: 0 0 1ch;
+  overflow: hidden;
+  letter-spacing: 0;
+}
+
+.proof-counter-strip {
+  display: flex;
+  flex-direction: column;
+  width: 1ch;
+  height: 20em;
+}
+
+.proof-counter-digit {
+  display: block;
+  width: 1ch;
+  height: 1em;
+  flex: 0 0 1em;
+  text-align: center;
+}
+
+.proof-counter-literal {
+  display: block;
+  white-space: pre;
+  line-height: 1;
+}
+
+.proof-counter-missing {
+  display: block;
+  max-width: 100%;
+  color: #52525b;
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.proof-repo-card {
+  gap: 30px;
+}
+
+.proof-repo-panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 54px;
+  gap: 34px;
+  border: 2px solid #e4e4e7;
+  border-radius: 36px;
+  background-color: #ffffff;
+  box-shadow: 0 18px 54px rgba(17, 17, 20, 0.06);
+}
+
+.proof-repo-header {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+.proof-repo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 90px;
+  height: 68px;
+  padding: 0 18px;
+  border-radius: 16px;
+  color: #b84000;
+  background-color: #fafafa;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.proof-repo-name {
+  font-size: 68px;
+}
+
+.proof-repo-description {
+  margin: 0;
+  max-width: 100%;
+  color: #52525b;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.32;
+  overflow-wrap: anywhere;
+}
+
+.proof-repo-rule {
+  width: 100%;
+  height: 2px;
+  flex: 0 0 2px;
+  background-color: #e4e4e7;
+  transform-origin: left center;
+}
+
+.proof-repo-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px 34px;
+}
+
+.proof-repo-star {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.proof-repo-star-glyph {
+  color: #b84000;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.proof-repo-stat-text,
+.proof-repo-language {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+.proof-repo-language {
+  color: #52525b;
+  padding: 10px 16px;
+  border: 2px solid #e4e4e7;
+  border-radius: 12px;
+}
