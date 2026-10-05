@@ -1,0 +1,5 @@
+[
+  {"id":"opener","type":"opener","dur":4,"kicker":"VIDEO TOOLKIT","l1":"ONE WORKFLOW.","l2":"YOUR FOOTAGE.","sub":"FFmpeg + video-use + HyperFrames"},
+  {"id":"chapter","type":"chapter","dur":3,"kicker":"CHAPTER 01","title":"MAKE THE FIRST CUT"},
+  {"id":"stat","type":"stat","dur":3,"num":"30","unit":"fps","label":"One frame grid for picture and sound"}
+]

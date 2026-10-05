@@ -1,0 +1,18 @@
+{
+  "name": "toolkit-remotion-examples",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "demo": "remotion render src/index.jsx Demo ../../workspaces/remotion-demo.mp4 --concurrency=2"
+  },
+  "dependencies": {
+    "remotion": "4.0.447",
+    "@remotion/cli": "4.0.447",
+    "@remotion/renderer": "4.0.447",
+    "@remotion/bundler": "4.0.447",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}

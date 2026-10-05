@@ -1,0 +1,10 @@
+{
+  "sources": {"screen": "../media/screen.mp4", "camera": "../media/camera.mp4"},
+  "sync": {"camera": 0},
+  "ranges": [
+    {"source": "camera", "style": "cam", "start": 0, "end": 4},
+    {"source": "screen", "style": "screen", "face": "camera", "start": 4, "end": 15}
+  ],
+  "titles": [{"seg": 0, "offset": 0.2, "dur": 2, "text": "MY DEMO", "sub": "Your subtitle"}],
+  "progress_bar": true
+}

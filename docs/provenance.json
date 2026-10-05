@@ -1,0 +1,888 @@
+{
+  "video_use": {
+    "url": "https://github.com/browser-use/video-use",
+    "revision": "92c2b34e44c205cbc2acae7f6ca7c1c219d5dd66",
+    "license": "MIT"
+  },
+  "scanned_desktop_projects": [
+    "vid1",
+    "vid2",
+    "vid3",
+    "vid4",
+    "vid5",
+    "vid6",
+    "videoeditinggod"
+  ],
+  "selection": "vid6 contains the most complete shared editor; graphics originate in vid2-vid6 and videoeditinggod/v3. Remotion also exists in Code/video-edit. Duplicates, recordings, transcripts, downloads, caches and session-specific cut plans are excluded.",
+  "files": [
+    {
+      "source": "Desktop/vid6/edit/autocut.py",
+      "destination": "engine/autocut.py",
+      "sha256_original": "1d8b8b1137abbd85547fdc152bd6698b8618634666e0c9c0bc9fcae4ff3f7097",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/build.py",
+      "destination": "engine/build.py",
+      "sha256_original": "daaf5eda35d1fbc670b3323e7eb98fa123c6f9d4ef5d658c7a9ff56102401f32",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/captions.py",
+      "destination": "engine/captions.py",
+      "sha256_original": "dad1ba8b6443137295643c473c68652703dff07cb54c45a69bb3d9b44206b0c5",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/extract_only.py",
+      "destination": "engine/extract_only.py",
+      "sha256_original": "61bb3ea573d8f167925ad33f0d3e41a9d09231a2670ce4dbd95c1cfcfbc328a2",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/jev.py",
+      "destination": "engine/jev.py",
+      "sha256_original": "a6687f4a28eadebf66dea8bb031846e4ff7b2ebf31f701011b0136404471fca2",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/make_frame_assets.py",
+      "destination": "engine/make_frame_assets.py",
+      "sha256_original": "daceccf56172ec3fd7f1ccb4259128846a48414a22f0f59e8d3d6424c4f77ec4",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/make_pip_assets.py",
+      "destination": "engine/make_pip_assets.py",
+      "sha256_original": "f5d29018b02afe8b9a0996c48be8cd3c998a03ab32f6d427b4af8fa56404e7f1",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/mix.py",
+      "destination": "engine/mix.py",
+      "sha256_original": "78c4683ee1e8fcf4e2e396b3579cff961add64d48a85e6f9fa0c5cdd18fe6bb3",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/omissions.py",
+      "destination": "engine/omissions.py",
+      "sha256_original": "cb033ff532daecffc7cd36ea1a3dfbf4e5e5af64061a5bb953f5c9e2903d237d",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/qc.py",
+      "destination": "engine/qc.py",
+      "sha256_original": "a3364a95c329cd2b5bc90ef7caa572e033cdfce49f98ce26be7be00b6bf08780",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/sfx.py",
+      "destination": "engine/sfx.py",
+      "sha256_original": "230f36dae376149a5c19f441b6e4a0708b01fb29ba53ce19e2f8706b74121b10",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/silences.py",
+      "destination": "engine/silences.py",
+      "sha256_original": "d1a3b9ee6a5336e1ad0a3e2a82dc41ba3989d620942cf1d782d594dd1114f04a",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/styles.py",
+      "destination": "engine/styles.py",
+      "sha256_original": "a856622df94be44356663bbb35e892e5de9ff226e57960fbaef0300863c1d89e",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/sync.py",
+      "destination": "engine/sync.py",
+      "sha256_original": "d7c528dd0cb52808005ef4ac7beb2981f41b77cb8b9b7283d92a5ca8c2310d8d",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/transcribe_local.py",
+      "destination": "engine/transcribe_local.py",
+      "sha256_original": "206f32b49ecd40331a5febc06f98b3871b0506eb8b2890063d024076e9ceae6e",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/bundle.html",
+      "destination": "examples/god-graphics/bundle/index.html",
+      "sha256_original": "3e8d4748cb7e256c351a4a5cc31667137971a59c435d08fb589abae015f2d9ac",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/calls.html",
+      "destination": "examples/god-graphics/calls/index.html",
+      "sha256_original": "b6d2120ac61438af98cc5f7ebf02f573dbe98fb9448191ce72388006f1d4e457",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/data.html",
+      "destination": "examples/god-graphics/data/index.html",
+      "sha256_original": "138b7b14ea512518355a5a3e70e23e5f5cf76a1268efad292b7d6d048417011d",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/drops.html",
+      "destination": "examples/god-graphics/drops/index.html",
+      "sha256_original": "32e0b71cb9c3c73b6dbc7363139a9d5d70255a940f515d80949a38d1de9fa1d1",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/edge.html",
+      "destination": "examples/god-graphics/edge/index.html",
+      "sha256_original": "6f26c27608491fd79cc9cd7b1856125d296d40525d76def3cb1da4dd1458ea48",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/features.html",
+      "destination": "examples/god-graphics/features/index.html",
+      "sha256_original": "da98c832a86621d20307cf1c1a6469ca275e7f9aa8ea9a7f92cd20dabe5eaf13",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/feed.html",
+      "destination": "examples/god-graphics/feed/index.html",
+      "sha256_original": "c4c86bffe376b55405df9099c48ce20ee90d8aaf3ec7b314a83a46242f097022",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/fineprint.html",
+      "destination": "examples/god-graphics/fineprint/index.html",
+      "sha256_original": "5313ae8bb85c76060d4047dc4291ea078be137558e9d3a64b53fc79fc6fd9dd3",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/harness.html",
+      "destination": "examples/god-graphics/harness/index.html",
+      "sha256_original": "3665fcf570f59a21d0874f74a3bf9578526bc5deee0136102a14685d8933e766",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/private.html",
+      "destination": "examples/god-graphics/private/index.html",
+      "sha256_original": "1207e8cf63b2b31d97b70af46d5781d889eb5fb9921e258ea4d685145d218aa2",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/title.html",
+      "destination": "examples/god-graphics/title/index.html",
+      "sha256_original": "88598600a689f28349fdb20585244663997425f584038b8f0f75689d6523a637",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/gfx/tokens.html",
+      "destination": "examples/god-graphics/tokens/index.html",
+      "sha256_original": "9aaad20e262ab780c357c583b8ea454911044dec9dab053b94ce6560d47584c8",
+      "adapted": false
+    },
+    {
+      "source": "Code/video-edit/composition.jsx",
+      "destination": "examples/remotion/src/Root.jsx",
+      "sha256_original": "e5238e3baf7eed24e66ae03b6a7fc6ef70b7bd5e3f3974f85de43deffcc78739",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/vid6/edit/animations/gfx/gen.py",
+      "destination": "graphics/cards.py",
+      "sha256_original": "73edd63217ca1ece287ca6e5e69d9a6e78ff950a0a2ab5268778b36bf1175b9d",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/vid6/edit/animations/gfx/template.html",
+      "destination": "graphics/template.html",
+      "sha256_original": "e28b2d148d1e509f60488a5224d9959fd48da732090798f73324508f115547fc",
+      "adapted": false
+    },
+    {
+      "source": "Desktop/videoeditinggod/v2/shoot.py",
+      "destination": "tools/capture.py",
+      "sha256_original": "e5c5b8a1d6aab97d6fb33c08aa3894bbc186c98e127f826b0e372fbfa1459dea",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/sfx.py",
+      "destination": "tools/extended_sfx.py",
+      "sha256_original": "3e884d20f1a02aeb161aac1bb743bb373403d52f19e5bbe4d2dbfa30a5e5270e",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/music.py",
+      "destination": "tools/music.py",
+      "sha256_original": "ced141ac340ab5014f62e8bbcd82fc70dc52ef5c822202218a44b04fedb0b288",
+      "adapted": true
+    },
+    {
+      "source": "Desktop/videoeditinggod/v3/thumb/make.py",
+      "destination": "tools/thumbnail.py",
+      "sha256_original": "50f01a68a26a8eca556a4c8c19ecd7632e1f7962174a95f2613d7d34a17f0a89",
+      "adapted": true
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/gsap/SKILL.md",
+      "destination": "vendor/hyperframes-skills/gsap/SKILL.md",
+      "sha256_original": "0ace76d56e2d2b021a7ee3f2ef7e69895cdef3b8787b58f4586e3959043ace17",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/gsap/references/effects.md",
+      "destination": "vendor/hyperframes-skills/gsap/references/effects.md",
+      "sha256_original": "f9901f96f34ef7542850aec7b3eef3335e504c65edc62cc03393758001a80ecd",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/gsap/scripts/extract-audio-data.py",
+      "destination": "vendor/hyperframes-skills/gsap/scripts/extract-audio-data.py",
+      "sha256_original": "f2c2bfe8fa982231fce4770872dcbc0b475f981a5950d9c33b3e9295fb364f28",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-cli/SKILL.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-cli/SKILL.md",
+      "sha256_original": "4c56ecec7a01e48b31523b81c7819877daff9034509522c7dae76cbbabbf8982",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/SKILL.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/SKILL.md",
+      "sha256_original": "ef5008899d6154938f05384e4a51231cf1c20be02494e0c85538c4457fc5829b",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/examples/add-block.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/examples/add-block.md",
+      "sha256_original": "54aafdc319321bc547134dcd14d0f6d0d7332701a49a0db63769ed16e7edd308",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/examples/add-component.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/examples/add-component.md",
+      "sha256_original": "e07fc854cba28ef16d9d56c7b8fd1aad6dc7cdc744fd802b74889c32cb266c0f",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/references/demo-html-pattern.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/references/demo-html-pattern.md",
+      "sha256_original": "f224cdc61f6de5e83dd631ab495c2481afd314dc854a43ec3447fe369fcd775d",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/references/discovery.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/references/discovery.md",
+      "sha256_original": "eae5209c6f22dd09c925728d95b31999e6539c81f79bd6d05ab637bd5d881b9f",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/references/install-locations.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/references/install-locations.md",
+      "sha256_original": "0beec79866bd5c31e3d5acd97c4a287de4c984135c03e0a422cbe5e3bf75ee38",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/references/wiring-blocks.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/references/wiring-blocks.md",
+      "sha256_original": "28338fdbc93a28a5c3f2ae21be2e3fbbf7692af6326a0694f98e51b4f47216fa",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes-registry/references/wiring-components.md",
+      "destination": "vendor/hyperframes-skills/hyperframes-registry/references/wiring-components.md",
+      "sha256_original": "5ad99c7b30a231e15d687b64ac87a605732398373052613786f52599bc1644cf",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/SKILL.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/SKILL.md",
+      "sha256_original": "b9125909126432cadf6ebe2bf57be78f26439aa5dac5b14e0dfaf7c3d8015da2",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/data-in-motion.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/data-in-motion.md",
+      "sha256_original": "4ac0fecf4e1dc30ff29705a3d5187182f907dd9856014201811febf2e836d684",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/house-style.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/house-style.md",
+      "sha256_original": "9f0d56e4927e4419cfe74b0f6421770b6d5a212d4fb2f8aba4cde8c8f5db3e71",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/bold-energetic.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/bold-energetic.md",
+      "sha256_original": "d609c6a2c025e301212da3ae22bf3b7bccaf7f99206383c07c088c3fc81902b7",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/clean-corporate.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/clean-corporate.md",
+      "sha256_original": "97a0a529917c6b952ca1a60596213d52ad0a4071d33387a13b194a7ff202c452",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/dark-premium.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/dark-premium.md",
+      "sha256_original": "2507de6c961dcb0716098bd3d5ab6084afc43a657caa17def0f9d0c3138124d5",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/jewel-rich.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/jewel-rich.md",
+      "sha256_original": "c1e5caeab799c6ee8b26807522c4a054081a477ad5f9c0f43da3452cf08e3c73",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/monochrome.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/monochrome.md",
+      "sha256_original": "5a3d31723a8713f2bc858d193f35eedd5351a3d415a46a35955a742f10dc580f",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/nature-earth.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/nature-earth.md",
+      "sha256_original": "740652b7e904865444b45744ee55c991413b4678e6a942de804ae6788973b4e9",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/neon-electric.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/neon-electric.md",
+      "sha256_original": "baf9fd4a35d97fe3c9bd9fbb52cd881464ff24735aadb0809a8ddf59e606bad1",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/pastel-soft.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/pastel-soft.md",
+      "sha256_original": "7dae88b52fc70d4f17ba085d14ef692047d634436c0cb7f14e49c840eaef2b47",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/palettes/warm-editorial.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/palettes/warm-editorial.md",
+      "sha256_original": "0246ba98536fe148c9bd10c2f0838896879283d83c458509d8191c9ab7bc245a",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/patterns.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/patterns.md",
+      "sha256_original": "c9d8814fee57f9166902c04ae7e084935cfdb45e0cc76ba12ad0325f4e29ddee",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/audio-reactive.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/audio-reactive.md",
+      "sha256_original": "574a00edc5ad61980e02d73bc899fbd85b21bf4cc017be763601e97b048a2b49",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/captions.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/captions.md",
+      "sha256_original": "9589c33212d289ddcc4ef2b1136edf248ed80a1667fdf172c5978d9489d62a1e",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/css-patterns.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/css-patterns.md",
+      "sha256_original": "059a836de7c45982d8f5e449ffbfef4b3b869ccec29f8366167fcb2affedd449",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/dynamic-techniques.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/dynamic-techniques.md",
+      "sha256_original": "862d5bddfed5ffc7cf35806159d6701330b9badab6677487f93358fb001d0550",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/motion-principles.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/motion-principles.md",
+      "sha256_original": "c5bc5a94e7d23322fb6f5b3044344adf595343c2da52653e4ccb21214514e2a8",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transcript-guide.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transcript-guide.md",
+      "sha256_original": "e18c4568c61376b48aceb89a218978c835d27d1472c100a078d0c2c29a50aac0",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions.md",
+      "sha256_original": "e7b67387dc205c8ea02d6e88af88ac22d0f922aba0c1b8ee17b3faa69279f4f8",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/catalog.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/catalog.md",
+      "sha256_original": "8257f220b7d94babd32acdf87edb365263b42901c8f480b17d9843e40843058b",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-3d.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-3d.md",
+      "sha256_original": "0c1954913c8cbc051c0d12e36c932f75f5c752bc3ced5c4e7c7f51adaf35be0b",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-blur.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-blur.md",
+      "sha256_original": "7bb334381c28909f1b2bb8fb298227a541fe1ab8fba270ad772f8890cc4fef30",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-cover.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-cover.md",
+      "sha256_original": "9ca06c6e5dfb04009f211111f0bc2b4cef09eed19f13c7f0e37d9eccde00c535",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-destruction.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-destruction.md",
+      "sha256_original": "5738201d47dd6474c93024666094a99494c819f40571f4336e3e4eae3b1fd9d9",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-dissolve.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-dissolve.md",
+      "sha256_original": "25bede7fd0e257415a2ba90be16502d52dec00c4d9fcf1019792cf2dbaeb78a6",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-distortion.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-distortion.md",
+      "sha256_original": "92c4f1d2baa46e6574e4b370e0267c898c385c31bd9005da3b2b0623e87c7f63",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-grid.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-grid.md",
+      "sha256_original": "1055c82ad2a8464c354f1f4e284ad684c365ed0758184ee9e4cce7f9fbfc9162",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-light.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-light.md",
+      "sha256_original": "dce1bd9db82f58c76d88b2600c391d0bbbe70a4be696494c2e75ecc9505882a7",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-mechanical.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-mechanical.md",
+      "sha256_original": "1152ad766ba6eaea2e9e276ba882f061160d57548ef8df2478276ecab8e9803d",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-other.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-other.md",
+      "sha256_original": "4d430cd13c82000dbbc9a59e3c26076c27fd6b3adc7ad3d43d8a8954dd1f0258",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-push.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-push.md",
+      "sha256_original": "6cf0bc2e55f7796f7e4fa8a92b7f4ab546ffef6ea56b64bde2429933c87b26ad",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-radial.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-radial.md",
+      "sha256_original": "525847c89575f1f26c42d9fde9c83474029ad9a2c78249a484623ab523dcf2f5",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/transitions/css-scale.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/transitions/css-scale.md",
+      "sha256_original": "da2a02d2c0e3bf1ffa6793e4134474ca973acd1a265840d8b1091ebab30f7b2d",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/tts.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/tts.md",
+      "sha256_original": "7e021e50a022519e692e91c0b8cf679fda4071f99e2a6e09326daa22b2dce6f8",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/references/typography.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/references/typography.md",
+      "sha256_original": "ccf9aba1334f54d970f0cbeecec74d9b207a29e178ef2ebdcd8a6689dae35408",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/hyperframes/visual-styles.md",
+      "destination": "vendor/hyperframes-skills/hyperframes/visual-styles.md",
+      "sha256_original": "9c2a479212be40a7c32f397f198f4d70c2a41fc3946d27a68300efe1b54b2f26",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/SKILL.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/SKILL.md",
+      "sha256_original": "ac62ba85b8ac6c834c359250e908e14bb18e4e278dcf98b2e9f2b05e3275ec1f",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-1-capture.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-1-capture.md",
+      "sha256_original": "88644dcc81df3d6f6af5e99c6ea00fd4098ba6f33db6543cd5d26ca5dc18c6b5",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-2-design.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-2-design.md",
+      "sha256_original": "ba097482b24374ed213e52c4c62153ecd71b04ac0801a0dce88582a8f1bb1395",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-3-script.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-3-script.md",
+      "sha256_original": "bf448de4875cb5f166b198c27b097b96bd402627d6d792e9e7f0f02ea8ff87f4",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-4-storyboard.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-4-storyboard.md",
+      "sha256_original": "bbbde8f3032ba67624c7b9987b64ba388a6bcac9c6a2e5fb4ba854c3747c59d5",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-5-vo.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-5-vo.md",
+      "sha256_original": "8edc55f17e4dd2bfb698a0b929fa881cefa9788eb54ed39bc70480010026c2c5",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-6-build.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-6-build.md",
+      "sha256_original": "ffa0b18dea8a26fb41054f3be0264dc70b12ecd7754770f394ada2339ee3d629",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/step-7-validate.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/step-7-validate.md",
+      "sha256_original": "2c21ceb30d3528c2a9c16b5daf11d5d02e93c614cc0d5544170ff2c8f0d5e417",
+      "adapted": false
+    },
+    {
+      "source": ".codex/.tmp/plugins/plugins/hyperframes/skills/website-to-hyperframes/references/techniques.md",
+      "destination": "vendor/hyperframes-skills/website-to-hyperframes/references/techniques.md",
+      "sha256_original": "50fd64288808fa9508bb9697cb2ddd18fd6a4ecc90c4035d4aac1ccb786c943e",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/.gitignore",
+      "destination": "vendor/video-use/.gitignore",
+      "sha256_original": "96f3170c59dc6cdf659330d43a713d0a2f73ac4b3ee68202adf98b99b22f096d",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/LICENSE",
+      "destination": "vendor/video-use/LICENSE",
+      "sha256_original": "f77bf226b54339f5a8891f9edcfadf231c9cd9017a9aa3d9f566d4d6264b541d",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/README.md",
+      "destination": "vendor/video-use/README.md",
+      "sha256_original": "7620d463e742b0e1e7c414e14dec520924de659a54ae40aa9f59cd21607a0a26",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/SKILL.md",
+      "destination": "vendor/video-use/SKILL.md",
+      "sha256_original": "17d4cbda68faf6232340c1a62952b0da307328554d2e613c116702175e8ea9e9",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/helpers/grade.py",
+      "destination": "vendor/video-use/helpers/grade.py",
+      "sha256_original": "b608e2028f1590429d19d5b6bfe3907e4c89ad72c4370d18026cff253e5c4a4f",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/helpers/pack_transcripts.py",
+      "destination": "vendor/video-use/helpers/pack_transcripts.py",
+      "sha256_original": "8571693b23c62938b9a22c51b33284347d6bef8645372e226e39613bf4a23252",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/helpers/render.py",
+      "destination": "vendor/video-use/helpers/render.py",
+      "sha256_original": "3494d81c136b39d40121b71ede5c0df4e318c7fd3036638f88233e50d5d19e99",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/helpers/timeline_view.py",
+      "destination": "vendor/video-use/helpers/timeline_view.py",
+      "sha256_original": "4311fb57fa248ab6ab1032984c6075062ddff2fdef860938ca91aecac372f781",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/helpers/transcribe.py",
+      "destination": "vendor/video-use/helpers/transcribe.py",
+      "sha256_original": "e9ab49140d74d07ed49b4d2b6206190827fca3364f69058df55411f6f34060cd",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/helpers/transcribe_batch.py",
+      "destination": "vendor/video-use/helpers/transcribe_batch.py",
+      "sha256_original": "1e8505b5d5ae0738d1237f2d6333d1977264c211465d0e15eea50e7c9449a44c",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/install.md",
+      "destination": "vendor/video-use/install.md",
+      "sha256_original": "6d2ee51d168c3dbfa3b80cd36f45f1f09ae0704ccb1dfafaf4bb36049f5ff707",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/poster.html",
+      "destination": "vendor/video-use/poster.html",
+      "sha256_original": "965047f0159e02405a9a761dedc3b8fdd6bd777a84a920be1f4085617e7c115f",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/pyproject.toml",
+      "destination": "vendor/video-use/pyproject.toml",
+      "sha256_original": "a7134ad4db17214a950b9d86f1f427c56ca2bb9ab41640ef7655287e401e6fbd",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/README.md",
+      "destination": "vendor/video-use/skills/manim-video/README.md",
+      "sha256_original": "8afaa305e8bb893db66afe6e64ad1d97b0cccafc1112506b0ec0c06836e5d388",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/SKILL.md",
+      "destination": "vendor/video-use/skills/manim-video/SKILL.md",
+      "sha256_original": "ab9541ab370cf989fe77cda4b46709ea5947a973f5187582ab7eef9c44851244",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/animation-design-thinking.md",
+      "destination": "vendor/video-use/skills/manim-video/references/animation-design-thinking.md",
+      "sha256_original": "4ba9c29c53072ef4a9e5d3123e7ae1d3bafecf8effff1ee36eb0da1f999ee5f8",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/animations.md",
+      "destination": "vendor/video-use/skills/manim-video/references/animations.md",
+      "sha256_original": "282cedf9da9796508b563f19a60cf05a39ba4bee838c5aff2f479cbe251d2687",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/camera-and-3d.md",
+      "destination": "vendor/video-use/skills/manim-video/references/camera-and-3d.md",
+      "sha256_original": "8b34d15636463e130e0995a73c044e93894d66322ca36f10a853cfc6c87dccf2",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/decorations.md",
+      "destination": "vendor/video-use/skills/manim-video/references/decorations.md",
+      "sha256_original": "8800aa7977a23444344be5fc0f98660d59b75403aa0f64c8cc5671313e2336c0",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/equations.md",
+      "destination": "vendor/video-use/skills/manim-video/references/equations.md",
+      "sha256_original": "77b9aa93bb84141d68bfc35744aae91ed2875f09abc5d6344f51146621bd7bb5",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/graphs-and-data.md",
+      "destination": "vendor/video-use/skills/manim-video/references/graphs-and-data.md",
+      "sha256_original": "ff977bbaded84f66dc818bd4e76abc10c94a2fe7521a2bed3067ca4d5eca12c8",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/mobjects.md",
+      "destination": "vendor/video-use/skills/manim-video/references/mobjects.md",
+      "sha256_original": "786e953d824dc5b989d62919dd81532f40d0a4a2a1d5fc533c4d7b5821bef4d5",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/paper-explainer.md",
+      "destination": "vendor/video-use/skills/manim-video/references/paper-explainer.md",
+      "sha256_original": "7526a2a79d7f52d4e5c32f4c1ef7e9ccbdcc624cf33d6a79ed08585a2272a5ad",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/production-quality.md",
+      "destination": "vendor/video-use/skills/manim-video/references/production-quality.md",
+      "sha256_original": "5b24c7f822e200210631a339dce826e7fc5becd45d9f415269b1e06efef4053f",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/rendering.md",
+      "destination": "vendor/video-use/skills/manim-video/references/rendering.md",
+      "sha256_original": "c7330c82060835b1b0ad8db32bdf28dba00b80e25e2a46ead4419c4cbcc50e7b",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/scene-planning.md",
+      "destination": "vendor/video-use/skills/manim-video/references/scene-planning.md",
+      "sha256_original": "c2a57dece2f64306283eb214e3ea993c76334231b6e06857e96964aecb43390d",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/troubleshooting.md",
+      "destination": "vendor/video-use/skills/manim-video/references/troubleshooting.md",
+      "sha256_original": "7e7817f2e13c0367774d8adb88fdb0996d6f29ef76fd488248310eb9395368b4",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/updaters-and-trackers.md",
+      "destination": "vendor/video-use/skills/manim-video/references/updaters-and-trackers.md",
+      "sha256_original": "086db44e64b938a36ff881dea685adb5b1aea9d1fd73754b7b55bf8fcdbb1ea7",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/references/visual-design.md",
+      "destination": "vendor/video-use/skills/manim-video/references/visual-design.md",
+      "sha256_original": "631303301a63067d55e9d675587bbbaa1c95b6e8af628ef89ab203e56534abd8",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/skills/manim-video/scripts/setup.sh",
+      "destination": "vendor/video-use/skills/manim-video/scripts/setup.sh",
+      "sha256_original": "3406438dbd88f1aab196f86de4e93e93f735b3f56897c4a70eaeaa413f9df74d",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/static/timeline-view.svg",
+      "destination": "vendor/video-use/static/timeline-view.svg",
+      "sha256_original": "a86c18c5e287f0fe850578a46fd9ad4e01a584fa16a93e03ddb16aec72b6737e",
+      "adapted": false
+    },
+    {
+      "source": "Developer/video-use/static/video-use-banner.png",
+      "destination": "vendor/video-use/static/video-use-banner.png",
+      "sha256_original": "a22497efc42640c79b921030e430d61f8f4a6005d83475cadeeb877320a76eb7",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/.claude-plugin/marketplace.json",
+      "destination": "vendor/watch/.claude-plugin/marketplace.json",
+      "sha256_original": "7154ae96d5c1d009e4f2ae0742ab826d3038c2c1bf9738f82f2bd94d92ad9559",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/.claude-plugin/plugin.json",
+      "destination": "vendor/watch/.claude-plugin/plugin.json",
+      "sha256_original": "f91f876da561897751281f0f02c7d5f01e35ac975de2bcf17f2de5661293c35f",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/.gitattributes",
+      "destination": "vendor/watch/.gitattributes",
+      "sha256_original": "39ae4e1227186515260fefbbd524195530ec874dc7b5eea018a4f5ba62407002",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/.github/workflows/release.yml",
+      "destination": "vendor/watch/.github/workflows/release.yml",
+      "sha256_original": "19d401efa1ead2582f5e90c335c8fefbf86c88ae482f7b24fce1af093a312041",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/.gitignore",
+      "destination": "vendor/watch/.gitignore",
+      "sha256_original": "46c8df7f4aa81244e252a7fd187dc7be43e925fe89a719c5e6d89373600cf23c",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/CHANGELOG.md",
+      "destination": "vendor/watch/CHANGELOG.md",
+      "sha256_original": "4b14027b59c9dcddbcf6733a9a83f77eed2a6004b41f2c17e3a74bac734e2701",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/LICENSE",
+      "destination": "vendor/watch/LICENSE",
+      "sha256_original": "d7db0f164ce591e35f13134a291bd8958c205b774ad655842e4868e5fed6a03b",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/README.md",
+      "destination": "vendor/watch/README.md",
+      "sha256_original": "598c466dc9bbf167d39ccdaef95742672cd24969c6b60045c0449776340ad04b",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/SKILL.md",
+      "destination": "vendor/watch/SKILL.md",
+      "sha256_original": "481bbdc835623dcba5d9f77e57a157697780dbd2eab186accc6e53b26aa53584",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/commands/watch.md",
+      "destination": "vendor/watch/commands/watch.md",
+      "sha256_original": "286286f4e4df08d36c727f2d65c4347a3e0be507894640693bbf4891093f887c",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/hooks/hooks.json",
+      "destination": "vendor/watch/hooks/hooks.json",
+      "sha256_original": "ee20b3ed98cea36ef5d1176e2ef8aa8c2639cd4bebf071d8b38eae77025323b4",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/hooks/scripts/check-setup.sh",
+      "destination": "vendor/watch/hooks/scripts/check-setup.sh",
+      "sha256_original": "3c280b6661ca8c2e8efd8cd5927a791387f43a49a77c6ba76ca7a8bc5c52f5de",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/build-skill.sh",
+      "destination": "vendor/watch/scripts/build-skill.sh",
+      "sha256_original": "54e3b0f32e59480d8233aec65c0915a7c60a768c8092f146741d24effa940b94",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/download.py",
+      "destination": "vendor/watch/scripts/download.py",
+      "sha256_original": "624496e51a48bddfd4187d7f636880a73db2b3f3b6e1978d2d8f217ffa439891",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/frames.py",
+      "destination": "vendor/watch/scripts/frames.py",
+      "sha256_original": "e6399dc5fd78e316ebde2c96ca2fe69acfba6837c94c5e4919df33cb54ecd808",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/setup.py",
+      "destination": "vendor/watch/scripts/setup.py",
+      "sha256_original": "ea6db5e4084ef920dce909d0266f6d1cb40a817dff3af7de23a5cdb3c1da8202",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/transcribe.py",
+      "destination": "vendor/watch/scripts/transcribe.py",
+      "sha256_original": "9260a2c8b4375dd06592f03e633271eb662f928b564533e43382f7886c9e442d",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/watch.py",
+      "destination": "vendor/watch/scripts/watch.py",
+      "sha256_original": "6aba002788f5e5e981269a1c0df004950c12b25b5c31766748276cc047a814df",
+      "adapted": false
+    },
+    {
+      "source": "tools/watch/scripts/whisper.py",
+      "destination": "vendor/watch/scripts/whisper.py",
+      "sha256_original": "fed2f3195a5e49d7bfd099040d8df7d1ba9818325f200fd2b212b78b58367464",
+      "adapted": false
+    }
+  ],
+  "hyperframes_skills": {
+    "source": "local HyperFrames plugin skills",
+    "upstream": "https://github.com/heygen-com/hyperframes",
+    "license": "Apache-2.0",
+    "license_source": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/LICENSE"
+  },
+  "watch": {
+    "url": "https://github.com/mathiaschu/watch",
+    "revision": "14c780e47bbafaf3b6ae22ec108615470cc89476",
+    "license": "MIT"
+  }
+}

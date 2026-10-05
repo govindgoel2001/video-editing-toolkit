@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>__ID__</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @font-face { font-family:"Segoe UI"; src:local("Segoe UI"); }
+    @font-face { font-family:"Segoe UI Semibold"; src:local("Segoe UI Semibold"); }
+    @font-face { font-family:Bahnschrift; src:local("Bahnschrift"); }
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1920px; height:1080px; overflow:hidden; background:transparent; }
+      #root { position:relative; width:1920px; height:1080px; perspective:1600px; }
+
+      /* Tinted glass, not clear glass. The screen recording swings between a
+         cream website and a near-black dashboard, and a pane light enough to
+         read on the first disappears on the second. A deep ink tint with a
+         bright rim keeps one card legible over both. */
+      .glass {
+        position:absolute;
+        background:
+          linear-gradient(135deg, rgba(255,255,255,0.16) 0%,
+                                  rgba(255,255,255,0.04) 38%,
+                                  rgba(255,255,255,0.00) 62%),
+          linear-gradient(160deg, rgba(10,38,30,0.90) 0%,
+                                  rgba(8,24,20,0.86) 100%);
+        border:1px solid rgba(190,232,214,0.30);
+        border-radius:22px;
+        box-shadow:
+          0 28px 70px rgba(0,0,0,0.50),
+          0 2px 0 rgba(255,255,255,0.12) inset,
+          0 -24px 40px rgba(0,0,0,0.20) inset;
+        overflow:hidden;
+        transform-style:preserve-3d;
+      }
+      /* the wet look: a specular band that slides across once on entry */
+      .sheen {
+        position:absolute; top:-60%; left:-40%; width:50%; height:220%;
+        background:linear-gradient(105deg, rgba(255,255,255,0.00) 0%,
+                                           rgba(255,255,255,0.22) 45%,
+                                           rgba(255,255,255,0.00) 100%);
+        filter:blur(6px);
+        transform:rotate(8deg);
+      }
+      .edge {                       /* amber hairline down the leading edge */
+        position:absolute; left:0; top:0; bottom:0; width:5px;
+        background:linear-gradient(180deg,#f0c069,#d1913c);
+      }
+      .kicker {
+        font-family:"Segoe UI Semibold","Segoe UI",system-ui,sans-serif;
+        font-size:21px; letter-spacing:0.40em; text-transform:uppercase;
+        color:#e8b964;
+      }
+      .title {
+        font-family:Bahnschrift,"Segoe UI",system-ui,sans-serif;
+        font-stretch:condensed; font-weight:700; line-height:0.98;
+        text-transform:uppercase; color:#f4f8f5; white-space:nowrap;
+      }
+      .sub {
+        font-family:"Segoe UI",system-ui,sans-serif; font-weight:600;
+        font-size:26px; color:#c3d8cc;
+      }
+      .mask { overflow:hidden; display:block; }
+      __CSS__
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="__ID__" data-start="0"
+         data-width="1920" data-height="1080" data-duration="__DUR__">
+      __BODY__
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      __TL__
+      window.__timelines["__ID__"] = tl;
+    </script>
+  </body>
+</html>

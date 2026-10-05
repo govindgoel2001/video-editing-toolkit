@@ -1,0 +1,14 @@
+{
+  "name": "govind-video-editing-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HyperFrames and GSAP companion to the Python/FFmpeg editor",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "hyperframes": "hyperframes",
+    "graphics": "python graphics/gen.py",
+    "demo": "python toolkit.py demo --graphics"
+  },
+  "dependencies": {"hyperframes": "0.8.40", "gsap": "3.14.2"}
+}

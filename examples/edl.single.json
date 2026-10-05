@@ -1,0 +1,7 @@
+{
+  "sources": {"screen": "../media/screen.mp4"},
+  "ranges": [
+    {"source": "screen", "style": "screen", "start": 0, "end": 15, "cut_silence": true}
+  ],
+  "progress_bar": true
+}
